@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
 
     --mainColor: #eaeaea;
@@ -17,7 +21,6 @@
 
     --buttonColor: black;
 }
-
 
 html,
 body {
