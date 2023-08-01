@@ -31,7 +31,20 @@
 
         <div class="main-container">
             <div class="greeting-wrapper">
-                <h1 class="">Hi, I'm Ayden Lum</h1>
+                <div class="greeting-wrapper">
+                    <h1 style="font-size:4vw">Hi! I'm <span class="auto-type"></span></h1>
+                </div>
+                <div>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                    <script>
+                        var typed = new Typed(".auto-type", {
+                            strings: ["Ayden Lum", "a UBC second-year", "excited to meet you!"],
+                            typeSpeed: 90,
+                            backSpeed: 60,
+                            loop: true
+                        })
+                    </script>
+                </div>
             </div>
 
             <div class="intro-wrapper">
@@ -134,9 +147,25 @@
                 <div class="social-links">
                     <h3>Find me on Instagram and LinkedIn</h3>
 
-                    <a target="_blank" href="https://www.instagram.com/ayden.lum/">Instagram: @ayden.lum</a>
+                    <a target="_blank" href="https://www.instagram.com/ayden.lum/" style="font-size: x-large;">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img src="images/Instagram-Logo-cropped.png" style="width: 11%;">
+                            <p style="margin-left: 2%;">
+                                Instagram
+                            </p>
+                        </div>
+
+                    </a>
                     <br>
-                    <a target="_blank" href="https://www.linkedin.com/in/aydenlum/">LinkedIn: @aydenlum</a>
+                    <a style="font-size: x-large;" target="_blank" href="https://www.linkedin.com/in/aydenlum/">
+                        <div style="display: flex; align-items: center; justify-content: center;">
+                            <img src="images/800px-LinkedIn_logo_initials.png" style="width: 10%;" alt="">
+                            <p style="margin-left: 2%;">
+                                LinkedIn
+                            </p>
+                        </div>
+
+                    </a>
                 </div>
             </div>
         </div>
