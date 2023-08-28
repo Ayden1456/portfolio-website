@@ -1,22 +1,4 @@
-:root {
-
-    --mainColor: #15202b;
-    --secondaryColor: #192734;
-
-
-    --borderColor: #164D56;
-
-
-    --mainText: #fff;
-    --secondaryText: #eeeeee;
-
-    --themeDotBorder: #fff;
-
-    --previewBg: rgb(25, 39, 52, 0.8);
-    --previewShadow: #111921;
-
-    --buttonColor: #17a2b8;
-}
+:root {}
 
 html,
 body {
@@ -83,6 +65,16 @@ h6 {
     font-size: 16px;
 }
 
+.navbar {
+    background-color: var(--mainColor);
+    color: var(--mainText);
+}
+
+.contact-btn {
+    border: 2px solid;
+    color: var(--secondaryText);
+}
+
 
 .s1 {
     background-color: var(--mainColor);
@@ -133,8 +125,13 @@ h6 {
     font-size: 20px;
 }
 
+.nav-link {
+    color: var(--mainText);
+}
+
 .navbar-brand {
     font-size: 24px;
+    color: var(--mainText);
 }
 
 .nav-wrapper {
