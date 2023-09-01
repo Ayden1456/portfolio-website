@@ -6,7 +6,7 @@ let colors = {
         ['--mainText', '#0a0a0a'],
         ['--secondaryText', '#414141'],
         ['--themeDotBorder', '#050303'],
-        ['--previewBg', 'rgb(25, 39, 52, 0.8)'],
+        ['--previewBg', '#e7f3ff'],
         ['--previewShadow', '#e5e5e5'],
     ],
     'dark': [

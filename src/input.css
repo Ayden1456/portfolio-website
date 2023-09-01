@@ -1,4 +1,4 @@
-:root {}
+/* root colors moved into a js controller  */
 
 html,
 body {
@@ -218,8 +218,6 @@ h6 {
     position: relative;
 }
 
-
-
 .corner {
     width: 7px;
     height: 7px;
@@ -314,6 +312,10 @@ h6 {
     font-size: 12px;
     font-style: italic;
     text-align: center;
+}
+
+.about-wrapper {
+    display: grid;
 }
 
 
