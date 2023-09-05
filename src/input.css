@@ -314,9 +314,7 @@ h6 {
     text-align: center;
 }
 
-.about-wrapper {
-    display: grid;
-}
+.about-wrapper {}
 
 
 @media screen and (max-width: 1200px) {
