@@ -8,6 +8,7 @@ let colors = {
         ['--themeDotBorder', '#050303'],
         ['--previewBg', '#e7f3ff'],
         ['--previewShadow', '#e5e5e5'],
+        ['--iconColor', '#15202b'],
     ],
     'dark': [
         ['--mainColor', '#15202b'],
@@ -18,5 +19,6 @@ let colors = {
         ['--themeDotBorder', '#fff'],
         ['--previewBg', 'rgb(25, 39, 52, 0.8)'],
         ['--previewShadow', '#111921'],
+        ['--iconColor', '#fff'],
     ]
 }

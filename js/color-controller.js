@@ -8,6 +8,7 @@ const loadColors = (colors) => {
     }
 }
 
+
 const changeColor = () => {
     if (color === "light") color = "dark";
     else if (color === "dark") color = "light";

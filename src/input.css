@@ -288,6 +288,10 @@ h6 {
     cursor: pointer;
 }
 
+.card {
+    background-color: var(--mainColor);
+}
+
 .theme-dot:hover {
     border-width: 5px;
 }
@@ -314,7 +318,19 @@ h6 {
     text-align: center;
 }
 
-.about-wrapper {}
+.post-text {
+    color: var(--borderColor);
+}
+
+.post-date-text {
+    color: #17a2b8;
+}
+
+.bi {
+    color: var(--iconColor);
+}
+
+
 
 
 @media screen and (max-width: 1200px) {
