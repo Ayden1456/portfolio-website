@@ -1,6 +1,6 @@
 let colorSwitchingButton = document.getElementById('color-switch');
 let root = document.querySelector(':root');
-let color = "light";
+let color = "dark";
 
 const loadColors = (colors) => {
     for (const property of colors) {
@@ -20,7 +20,6 @@ const changeIcon = () => {
     colorSwitchingButton.classList.add(color);
 }
 
-loadColors(colors['light']);
+loadColors(colors['dark']);
 changeIcon();
 colorSwitchingButton.addEventListener('click', () => { changeColor(); changeIcon(); });
-
