@@ -43,6 +43,9 @@ textarea {
     color: var(--secondaryText);
 }
 
+p {
+    font-size: 17px;
+}
 
 a {
     text-decoration: none;
