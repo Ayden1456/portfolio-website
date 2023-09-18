@@ -45,6 +45,7 @@ textarea {
 
 p {
     font-size: 17px;
+    line-height: 1.5;
 }
 
 a {
@@ -86,6 +87,10 @@ h6 {
     color: var(--mainText);
 }
 
+.navbar-main {
+    border-bottom: 1px solid var(--borderColor);
+}
+
 .contact-btn {
     border: 2px solid;
     color: var(--secondaryText);
@@ -113,6 +118,20 @@ h6 {
     text-align: center;
     align-content: center;
     min-height: 10em;
+}
+
+.a_link {
+    color: #17a2b8;
+    text-decoration: none;
+    font-style: italic;
+    /* for italicizing */
+    font-weight: bold;
+    /* for bolding */
+
+}
+
+.a_link:hover {
+    color: white;
 }
 
 .intro-wrapper {
