@@ -342,9 +342,9 @@ h6 {
     background-color: var(--mainColor);
 }
 
-.post-award-text {
+.post-date-text {
     color: #17a2b8;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .bi {
