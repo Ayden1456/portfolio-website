@@ -17,6 +17,7 @@ html,
 body {
     padding: 0;
     margin: 0;
+    background-color: var(--mainColor);
 }
 
 body * {
@@ -92,6 +93,7 @@ h6 {
 }
 
 .contact-btn {
+    text-decoration: none;
     border: 2px solid;
     color: var(--secondaryText);
 }
@@ -164,7 +166,6 @@ h6 {
     color: var(--mainText);
 }
 
-.nav-link:hover {}
 
 .navbar-brand {
     font-size: 24px;
@@ -333,34 +334,17 @@ h6 {
     border-width: 5px;
 }
 
-#light-mode {
-    background-color: #fff;
-}
-
-#blue-mode {
-    background-color: #192734;
-}
-
-#green-mode {
-    background-color: #78866b;
-}
-
-#purple-mode {
-    background-color: #7E4C74;
-}
-
-#settings-node {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
-}
-
 .post-text {
-    color: var(--borderColor);
+    color: var(--secondaryText);
 }
 
-.post-date-text {
+.proper-background {
+    background-color: var(--mainColor);
+}
+
+.post-award-text {
     color: #17a2b8;
+    font-weight: 700;
 }
 
 .bi {
